@@ -13,7 +13,8 @@ const Calculator = () => {
 
   const { total, next } = obj;
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col md:flex-row items-center md:items-start md:justify-evenly">
+      <h2 className="mt-5 md:mt-10 font-semibold">Let&apos;s do some math!</h2>
       <div className="w-80 md:w-[50%] grid grid-cols-4 md:text-xl">
         <div className="bg-[#858694] text-right col-span-4 w-full text-white mt-10 p-2 md:p-5">{next ? next : total ? total : '0'}</div>
         {btn.map((ele) => (

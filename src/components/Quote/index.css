@@ -1,0 +1,39 @@
+.quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.quote ::before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote p {
+  display: inline;
+}
+
+.author {
+  color: #666;
+  display: block;
+  font-size: 80%;
+  font-style: italic;
+  text-align: right;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
