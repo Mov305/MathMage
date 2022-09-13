@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mathmage/static/css/main.5cd061fc.css",
+    "main.js": "/mathmage/static/js/main.80500ba5.js",
+    "index.html": "/mathmage/index.html",
+    "main.5cd061fc.css.map": "/mathmage/static/css/main.5cd061fc.css.map",
+    "main.80500ba5.js.map": "/mathmage/static/js/main.80500ba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd061fc.css",
+    "static/js/main.80500ba5.js"
+  ]
+}
