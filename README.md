@@ -4,7 +4,7 @@
 
  ## Live Demo
 
-[Click me](https://Mov305.github.io/mathmage)
+[Click me](https://Mov305.github.io/MathMage/)
 
 
 ## Built With
