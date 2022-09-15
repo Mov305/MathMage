@@ -1,6 +1,5 @@
-import calculate from "./calculate";
-import operate from "./operate";
-
+import calculate from './calculate';
+import operate from './operate';
 
 test('AC button returns object props equal null', () => {
   const obj = {
@@ -9,19 +8,18 @@ test('AC button returns object props equal null', () => {
     total: null,
   };
   calculate({}, 'AC');
-  expect(obj.next).toBe(null);   
+  expect(obj.next).toBe(null);
 });
 
 test('testing addition ', () => {
   const obj = {
-    next:2,
+    next: 2,
     operation: '+',
     total: 5,
   };
-  calculate({next: '2', operation: '+', total: '3'}, '+');
-  expect(obj.next).toBe(2);   
+  calculate({ next: '2', operation: '+', total: '3' }, '+');
+  expect(obj.next).toBe(2);
 });
-
 
 describe('Test operations with numbers', () => {
   test('  x sign', () => {
@@ -29,13 +27,13 @@ describe('Test operations with numbers', () => {
   });
 
   test('÷ sign', () => {
-    expect(operate(4, 2, '÷')).toBe('2');
+    expect(operate(4, 2, '/')).toBe('2');
   });
 
   test('+ sign', () => {
     expect(operate(6, 4, '+')).toBe('10');
   });
-   test("-" , () => {
+  test('-', () => {
     expect(operate(6, 4, '-')).toBe('2');
   });
 });
