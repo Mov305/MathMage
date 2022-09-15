@@ -36,4 +36,8 @@ describe('Test operations with numbers', () => {
   test('-', () => {
     expect(operate(6, 4, '-')).toBe('2');
   });
+
+  test('%', () => {
+    expect(operate(6, 4, '%')).toBe('2');
+  });
 });
